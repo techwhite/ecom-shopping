@@ -6,3 +6,5 @@ const store = configureStore({
     foods: foodsReducer,
   },
 });
+
+export default store;
