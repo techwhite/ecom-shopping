@@ -22,5 +22,7 @@ const fetchFoodList = () => {
   };
 };
 
+const store = foodStore.reducer;
+
 export { fetchFoodList };
-export default foodStore;
+export default store;
